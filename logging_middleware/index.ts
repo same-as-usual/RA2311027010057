@@ -8,8 +8,8 @@ type Package =
   | "controller" | "cron_job" | "db" | "domain" | "handler"
   | "repository" | "route" | "service";
 
-const LOG_API = "http://20.207.122.201/evaluation-service/logs";
-const AUTH_API = "http://20.207.122.201/evaluation-service/auth";
+const LOG_API = "/api/logs";
+const AUTH_API = "/api/auth";
 
 const AUTH_PAYLOAD = {
   email: "rc2443@srmist.edu.in",
